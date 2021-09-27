@@ -1,0 +1,21 @@
+body {
+    background-color: black;
+}
+
+h5{
+    font-family: Tesla;
+    text-align: center;
+    padding-right: 10px;
+    font-size: 15rem;
+    /*background: linear-gradient(to right, #f12711, #f5af19);  W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient( #c21500, #ffc500); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+
+}
+
+@font-face {
+    font-family: 'Tesla';
+    src: url(fonts/TESLA.ttf);
+}
